@@ -17,7 +17,7 @@ const Count = (props) => {
 
 const Reset = (props) => {
     const resetNilai = () => {
-        props.dispatch({ type: RESETNILAI })    //RESETNILAI
+        props.dispatch({ type: RESETNILAI })    //dispatch RESETNILAI
     }
     return (
         <Button 

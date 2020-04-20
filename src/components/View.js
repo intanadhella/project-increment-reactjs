@@ -12,18 +12,18 @@ export default () => {
                 <Col md="auto">
                     <InputGroup className="mb-3">
                         <InputGroup.Prepend>
-                            <Decrement />       {/*Decrement*/}
+                            <Decrement />       {/*component Decrement*/}
                         </InputGroup.Prepend>
-                        <Counter.Count />       {/*Counter.Count*/}
+                        <Counter.Count />       {/*component Counter -> Count*/}
                         <InputGroup.Append>
-                            <Increment />       {/*Increment*/}
+                            <Increment />       {/*component Increment*/}
                         </InputGroup.Append>
                     </InputGroup>
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
                 <Col md="auto">
-                    <Counter.Reset />           {/*Counter.Reset*/}
+                    <Counter.Reset />           {/*component Counter -> Reset*/}
                 </Col>
             </Row>
         </div>

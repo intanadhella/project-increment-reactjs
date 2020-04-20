@@ -5,7 +5,7 @@ import { KURANGNILAI } from '../../reducer';
 
 const Decrement = (props) => {
     const kurangNilai = () => {
-        props.dispatch({ type: KURANGNILAI })   //KURANGNILAI
+        props.dispatch({ type: KURANGNILAI })   // dispatch KURANGNILAI
     }
 
     return (

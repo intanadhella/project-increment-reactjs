@@ -5,7 +5,7 @@ import { TAMBAHNILAI } from '../../reducer';
 
 const Increment = (props) => {
     const tambahNilai = () => {
-        props.dispatch({ type: TAMBAHNILAI })   //TAMBAHNILAI
+        props.dispatch({ type: TAMBAHNILAI })   //dispatch TAMBAHNILAI
     }
     return (
         <Button 
