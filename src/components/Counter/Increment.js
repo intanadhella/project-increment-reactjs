@@ -9,7 +9,7 @@ const Increment = (props) => {
     }
     return (
         <Button 
-            variant="outline-info"
+            variant="outline-success"
             onClick={tambahNilai}               //tambahNilai
         >+</Button>
     )

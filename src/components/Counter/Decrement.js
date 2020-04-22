@@ -10,7 +10,7 @@ const Decrement = (props) => {
 
     return (
         <Button 
-            variant="outline-info"
+            variant="outline-warning"
             onClick={kurangNilai}               //kurangNilai
         >-</Button>
     )
